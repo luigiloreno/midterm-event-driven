@@ -4,13 +4,10 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-<<<<<<< HEAD
 import { ProfileComponent } from './pages/profile/profile.component';
 import { GalleryComponent } from './pages/gallery/gallery.component';
 import { ContactComponent } from './pages/contact/contact.component';
-=======
 import { NgxMasonryModule } from 'ngx-masonry';
->>>>>>> b2
 
 // Material Modules
 import { MatSidenavModule } from '@angular/material/sidenav';
