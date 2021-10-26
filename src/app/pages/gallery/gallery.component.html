@@ -1,1 +1,16 @@
-<p>gallery works!</p>
+<div class="gallery_container">
+    <div class="gallery_content_container">
+      <ngx-masonry
+        [options]="masonryOptions"
+        style="width: 100vw; "
+      >
+        <div
+          ngxMasonryItem
+          *ngFor="let image of masonryImages; index as idx"
+          style="width: 25%"
+        >
+          <img [src]="image[1]" width="100%" />
+        </div>
+      </ngx-masonry>
+    </div>
+  </div>
